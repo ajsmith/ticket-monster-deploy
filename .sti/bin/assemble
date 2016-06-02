@@ -1,0 +1,5 @@
+#!/bin/bash
+
+mv /tmp/src/ticket-monster.war ${JBOSS_HOME}/standalone/deployments/ticket-monster.war
+
+/usr/local/sti/assemble
